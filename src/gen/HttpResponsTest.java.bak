@@ -1,9 +1,9 @@
-ï»¿package gen;
+package gen;
 
 import java.util.Vector;
 
 /**
- * å“åº”å¯¹è±¡
+ * ÏìÓ¦¶ÔÏó
  */
 public class HttpResponsTest {
  

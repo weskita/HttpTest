@@ -1,4 +1,4 @@
-ï»¿package gen;
+package gen;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Vector;
  
 /**
- * HTTPè¯·æ±‚å¯¹è±¡
+ * HTTPÇëÇó¶ÔÏó
  * 
  * @author Sean Zhao
  */
@@ -42,11 +42,11 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€GETè¯·æ±‚
+	 * ·¢ËÍGETÇëÇó
 	 * 
 	 * @param urlString
-	 *            URLåœ°å€
-	 * @return å“åº”å¯¹è±¡
+	 *            URLµØÖ·
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	public HttpResponsTest sendGet(String urlString) throws IOException {
@@ -54,13 +54,13 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€GETè¯·æ±‚
+	 * ·¢ËÍGETÇëÇó
 	 * 
 	 * @param urlString
-	 *            URLåœ°å€
+	 *            URLµØÖ·
 	 * @param params
-	 *            å‚æ•°é›†åˆ
-	 * @return å“åº”å¯¹è±¡
+	 *            ²ÎÊı¼¯ºÏ
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	public HttpResponsTest sendGet(String urlString, Map<String, String> params)
@@ -69,15 +69,15 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€GETè¯·æ±‚
+	 * ·¢ËÍGETÇëÇó
 	 * 
 	 * @param urlString
-	 *            URLåœ°å€
+	 *            URLµØÖ·
 	 * @param params
-	 *            å‚æ•°é›†åˆ
+	 *            ²ÎÊı¼¯ºÏ
 	 * @param propertys
-	 *            è¯·æ±‚å±æ€§
-	 * @return å“åº”å¯¹è±¡
+	 *            ÇëÇóÊôĞÔ
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	public HttpResponsTest sendGet(String urlString, Map<String, String> params,
@@ -86,11 +86,11 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€POSTè¯·æ±‚
+	 * ·¢ËÍPOSTÇëÇó
 	 * 
 	 * @param urlString
-	 *            URLåœ°å€
-	 * @return å“åº”å¯¹è±¡
+	 *            URLµØÖ·
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	public HttpResponsTest sendPost(String urlString) throws IOException {
@@ -98,13 +98,13 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€POSTè¯·æ±‚
+	 * ·¢ËÍPOSTÇëÇó
 	 * 
 	 * @param urlString
-	 *            URLåœ°å€
+	 *            URLµØÖ·
 	 * @param params
-	 *            å‚æ•°é›†åˆ
-	 * @return å“åº”å¯¹è±¡
+	 *            ²ÎÊı¼¯ºÏ
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	public HttpResponsTest sendPost(String urlString, Map<String, String> params)
@@ -113,15 +113,15 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€POSTè¯·æ±‚
+	 * ·¢ËÍPOSTÇëÇó
 	 * 
 	 * @param urlString
-	 *            URLåœ°å€
+	 *            URLµØÖ·
 	 * @param params
-	 *            å‚æ•°é›†åˆ
+	 *            ²ÎÊı¼¯ºÏ
 	 * @param propertys
-	 *            è¯·æ±‚å±æ€§
-	 * @return å“åº”å¯¹è±¡
+	 *            ÇëÇóÊôĞÔ
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	public HttpResponsTest sendPost(String urlString, Map<String, String> params,
@@ -130,10 +130,10 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å‘é€HTTPè¯·æ±‚
+	 * ·¢ËÍHTTPÇëÇó
 	 * 
 	 * @param urlString
-	 * @return å“æ˜ å¯¹è±¡
+	 * @return ÏìÓ³¶ÔÏó
 	 * @throws IOException
 	 */
 	private HttpResponsTest send(String urlString, String method,
@@ -182,10 +182,10 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * å¾—åˆ°å“åº”å¯¹è±¡
+	 * µÃµ½ÏìÓ¦¶ÔÏó
 	 * 
 	 * @param urlConnection
-	 * @return å“åº”å¯¹è±¡
+	 * @return ÏìÓ¦¶ÔÏó
 	 * @throws IOException
 	 */
 	private HttpResponsTest makeContent(String urlString,
@@ -240,14 +240,14 @@ public class HttpRequestTest {
 	}
  
 	/**
-	 * é»˜è®¤çš„å“åº”å­—ç¬¦é›†
+	 * Ä¬ÈÏµÄÏìÓ¦×Ö·û¼¯
 	 */
 	public String getDefaultContentEncoding() {
 		return this.defaultContentEncoding;
 	}
  
 	/**
-	 * è®¾ç½®é»˜è®¤çš„å“åº”å­—ç¬¦é›†
+	 * ÉèÖÃÄ¬ÈÏµÄÏìÓ¦×Ö·û¼¯
 	 */
 	public void setDefaultContentEncoding(String defaultContentEncoding) {
 		this.defaultContentEncoding = defaultContentEncoding;
